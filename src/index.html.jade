@@ -1,0 +1,197 @@
+doctype html
+html
+  head
+    // App Title
+    title Level Eight Digital
+    // App Description
+    meta(name='description', content='Level Eight Digital.')
+    meta(charset='utf-8')
+    meta(name='author', content='clinsoftsolutions.com')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', href='css/owl.transitions.css')
+    link(rel='stylesheet', type='text/css', href='css/owl.carousel.css')
+    link(rel='stylesheet', type='text/css', href='css/animate.css')
+    link(rel='stylesheet', type='text/css', href='css/main.css')
+    script(type='text/javascript', src='js/jquery.js')
+    script(type='text/javascript', src='js/ajaxchimp.js')
+    script(type='text/javascript', src='js/scrollTo.js')
+    script(type='text/javascript', src='js/owl.carousel.min.js')
+    script(type='text/javascript', src='js/wow.js')
+    script(type='text/javascript', src='js/parallax.js')
+    script(type='text/javascript', src='js/nicescroll.js')
+    script(type='text/javascript', src='js/main.js')
+  body
+    // Header Section
+    header
+      .container
+        .logo.pull-left.animated.wow.fadeInLeft
+          img(src='img/Level-Eight-Logo.png', alt='', title='')
+        nav.pull-left
+          ul.list-unstyled
+            li.animated.wow.fadeInLeft(data-wow-delay='0s')
+              a(href='#about') About
+            li.animated.wow.fadeInLeft(data-wow-delay='.1s')
+              a(href='#app_features') Features
+            li.animated.wow.fadeInLeft(data-wow-delay='.2s')
+              a(href='#testimonials') Testimonials
+        .social.pull-right
+          ul.list-unstyled
+            li.animated.wow.fadeInRight(data-wow-delay='.2s')
+              a(href='#')
+                img(src='img/facebook.png', alt='', title='')
+            li.animated.wow.fadeInRight(data-wow-delay='.1s')
+              a(href='#')
+                img(src='img/twitter.png', alt='', title='')
+            li.animated.wow.fadeInRight(data-wow-delay='0s')
+              a(href='#')
+                img(src='img/google.png', alt='', title='')
+        span.burger_icon menu
+    // End Header Section
+    // Hero Section
+    section#hero.hero
+      .container
+        .caption
+          h1.text-uppercase.animated.wow.fadeInLeft Attract, Convert and Retain More Customers.
+          p.text-lowercase.animated.wow.fadeInLeft
+            | Ecommerce &amp; Digital Marketing services for businesses focused on improving their ecommerce and marketing activities with a little know-how from us.
+          a.app_store_btn.text-uppercase.animated.wow.fadeInLeft(href='http://pixelhint.com/capture-free-responsive-bootstrap-app-landing-page-theme')
+            i.iphone_icon
+            span E-Commerce
+          a.app_store_btn.text-uppercase.animated.wow.fadeInLeft(href='http://pixelhint.com/capture-free-responsive-bootstrap-app-landing-page-theme')
+            i.android_icon
+            span Digital Marketing
+    // End Hero Section
+    // Featured On Section
+    section.featured_on
+      .container
+        ul.list-unstyled.text-center.clearfix
+          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown
+            img(src='img/google_logo.png', alt='', title='')
+          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.2s')
+            img(src='img/facebook_logo.png', alt='', title='')
+          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.3s')
+            img(src='img/yahoo_logo.png', alt='', title='')
+          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.4s')
+            img(src='img/paypal_logo.png', alt='', title='')
+    // End Featured On Section
+    // About Section
+    section#about.about
+      .container
+        .row
+          .col-md-6.text-center.animated.wow.fadeInLeft
+            .iphone
+              img(src='img/iphone.png', alt='', titl='')
+          .col-md-6.animated.wow.fadeInRight
+            .features_list
+              h1.text-uppercase Capture unforgettable moments.
+              p
+                | Seuismod ligula ipsum vulputate tellus quisque dictum tortor at purus faucibus tincidunt, pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+              ul.list-unstyled
+                li.camera_icon
+                  span Euismod ligula ipsum vulputate tellus.
+                li.video_icon
+                  span Morbi non efficitur nibh sit amet est eros.
+                li.eye_icon
+                  span Fusce faucibus ante liberonec luctus egestas.
+                li.pic_icon
+                  span Quisque pretium malesuada ornare.
+                li.loc_icon
+                  span Cras interdum vestibulum dolor.
+              a#play_video.app_store_btn.text-uppercase(href='#', data-video='http://www.youtube.com/embed/Bm3NV3gGB2w?autoplay=1&showinfo=0')
+                i.play_icon
+                span About Video
+              a.app_link(href='#hero') Get the app
+      .about_video.show_video
+        a.close_video(href='')
+    // End About Section
+    // App Features Section
+    section#app_features.app_features
+      .container
+        .row.text-center
+          .col-sm-4.col-md-4.details.animated.wow.fadeInDown(data-wow-delay='0s')
+            img(src='img/f_icon1.png', alt='', title='')
+            h1.text-uppercase malesuada fames turpis.
+            p.text-lowercase
+              | vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.
+          .col-sm-4.col-md-4.details.animated.wow.fadeInDown(data-wow-delay='.1s')
+            img(src='img/f_icon2.png', alt='', title='')
+            h1.text-uppercase malesuada fames turpis.
+            p.text-lowercase
+              | vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.
+          .col-sm-4.col-md-4.details.animated.wow.fadeInDown(data-wow-delay='.2s')
+            img(src='img/f_icon3.png', alt='', title='')
+            h1.text-uppercase malesuada fames turpis.
+            p.text-lowercase
+              | vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.
+          .col-sm-4.col-md-4.details.animated.wow.fadeInDown(data-wow-delay='0s')
+            img(src='img/f_icon4.png', alt='', title='')
+            h1.text-uppercase malesuada fames turpis.
+            p.text-lowercase
+              | vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.
+          .col-sm-4.col-md-4.details.animated.wow.fadeInDown(data-wow-delay='.1s')
+            img(src='img/f_icon5.png', alt='', title='')
+            h1.text-uppercase malesuada fames turpis.
+            p.text-lowercase
+              | vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.
+          .col-sm-4.col-md-4.details.animated.wow.fadeInDown(data-wow-delay='.2s')
+            img(src='img/f_icon6.png', alt='', title='')
+            h1.text-uppercase malesuada fames turpis.
+            p.text-lowercase
+              | vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.
+    // And App Features Section
+    // Testimonials Section
+    section#testimonials.testimonials.animated.wow.fadeIn(data-wow-duration='2s')
+      .container
+        .testimonials_list
+          ul#tslider.list-unstyled.text-center.slides.clearfix
+            li
+              blockquote
+                p
+                  | Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.
+                span.author.text-uppercase John Doe
+                span.job IOS developer
+            li
+              blockquote
+                p
+                  | Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.
+                span.author.text-uppercase Alex Fredy
+                span.job android developer
+            li
+              blockquote
+                p
+                  | Integer pharetra tellus varius, dictum erat vel, maximus tellus. Sed vitae auctor ipsum. Aliquam luctus erat nec pulvinar vehicula donec congue tortor eget sem condimentum, ut tempor massa porttitor. Praesent tincidunt mi orci  in sollicitudin mi dapibus dapibus pellentesque habitant morbi tristique senectus et malesuada fames turpis egestas.
+                span.author.text-uppercase Sara Aliba
+                span.job app Designer
+          #slider_nav
+            #prev_arrow
+            #next_arrow
+    // End Testimonials Section
+    // Email Subscription Section
+    section.sub_box
+      p.cta_text.animated.wow.fadeInDown Join Our Liste and stay updated!
+      form#submit_form.animated.wow.fadeIn(action='http://pixelhint.us3.list-manage.com/subscribe/post?u=9cf3b8b1cfc597a436b9964d3&id=2449ed590e', metohd='post', data-wow-duration='2s')
+        input#mc-email(type='email', placeholder='Enter your email')
+        button#mc_submit(type='submit')
+          i.icon
+      #error_msg.message Please Enter A Valid Email.
+      #success_msg.message Thank You For Your Subscription.
+    // End Email Subscription Section
+    // Footer Section
+    footer
+      ul.list-unstyled.list-inline.app_platform
+        li.animated.wow.fadeInDown(data-wow-delay='0s')
+          a(href='')
+            img(src='img/android_icon.png', alt='', title='')
+        li.animated.wow.fadeInDown(data-wow-delay='.1s')
+          a(href='')
+            img(src='img/ios_icon.png', alt='', title='')
+        li.animated.wow.fadeInDown(data-wow-delay='.2s')
+          a(href='')
+            img(src='img/windows_icon.png', alt='', title='')
+      p.copyright.animated.wow.fadeIn(data-wow-duration='2s')
+        | &copy; 2015 
+        a(href='http://pixelhint.com', target='_blank')
+          strong Pixelhint.com
+        | . All Rights Reserved
+    // End Footer Section
