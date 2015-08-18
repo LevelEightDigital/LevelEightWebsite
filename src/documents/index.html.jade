@@ -1,13 +1,53 @@
----
-title: "Home"
-layout: "default"
-TopMenuCategory: "Home"
-scripts: ['/js/index.js']
-priority: 1.0
----
-
-block content
-
+doctype html
+html
+  head
+    // App Title
+    title Level Eight Digital
+    // App Description
+    meta(name='description', content='Level Eight Digital.')
+    meta(charset='utf-8')
+    meta(name='author', content='clinsoftsolutions.com')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', href='css/owl.transitions.css')
+    link(rel='stylesheet', type='text/css', href='css/owl.carousel.css')
+    link(rel='stylesheet', type='text/css', href='css/animate.css')
+    link(rel='stylesheet', type='text/css', href='css/main.css')
+    script(type='text/javascript', src='js/jquery.js')
+    script(type='text/javascript', src='js/ajaxchimp.js')
+    script(type='text/javascript', src='js/scrollTo.js')
+    script(type='text/javascript', src='js/owl.carousel.min.js')
+    script(type='text/javascript', src='js/wow.js')
+    script(type='text/javascript', src='js/parallax.js')
+    script(type='text/javascript', src='js/nicescroll.js')
+    script(type='text/javascript', src='js/main.js')
+  body
+    // Header Section
+    header
+      .container
+        .logo.pull-left.animated.wow.fadeInLeft
+          img(src='img/Level-Eight-Logo.png', alt='', title='' width="240")
+        nav.pull-left
+          ul.list-unstyled
+            li.animated.wow.fadeInLeft(data-wow-delay='0s')
+              a(href='#about') About
+            li.animated.wow.fadeInLeft(data-wow-delay='.1s')
+              a(href='#app_features') Features
+            li.animated.wow.fadeInLeft(data-wow-delay='.2s')
+              a(href='#testimonials') Testimonials
+        .social.pull-right
+          ul.list-unstyled
+            li.animated.wow.fadeInRight(data-wow-delay='.2s')
+              a(href='#')
+                img(src='img/facebook.png', alt='', title='')
+            li.animated.wow.fadeInRight(data-wow-delay='.1s')
+              a(href='#')
+                img(src='img/twitter.png', alt='', title='')
+            li.animated.wow.fadeInRight(data-wow-delay='0s')
+              a(href='#')
+                img(src='img/google.png', alt='', title='')
+        span.burger_icon menu
+    // End Header Section
     // Hero Section
     section#hero.hero
       .container
@@ -137,3 +177,21 @@ block content
       #error_msg.message Please Enter A Valid Email.
       #success_msg.message Thank You For Your Subscription.
     // End Email Subscription Section
+    // Footer Section
+    footer
+      ul.list-unstyled.list-inline.app_platform
+        li.animated.wow.fadeInDown(data-wow-delay='0s')
+          a(href='')
+            img(src='img/android_icon.png', alt='', title='')
+        li.animated.wow.fadeInDown(data-wow-delay='.1s')
+          a(href='')
+            img(src='img/ios_icon.png', alt='', title='')
+        li.animated.wow.fadeInDown(data-wow-delay='.2s')
+          a(href='')
+            img(src='img/windows_icon.png', alt='', title='')
+      p.copyright.animated.wow.fadeIn(data-wow-duration='2s')
+        | &copy; 2015 
+        a(href='http://pixelhint.com', target='_blank')
+          strong Pixelhint.com
+        | . All Rights Reserved
+    // End Footer Section
