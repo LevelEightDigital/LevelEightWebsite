@@ -211,18 +211,18 @@ header .social li:first-child{
 }
 
 .hero .caption h1{
-	color: #525252;
+	color: #f2f2f2;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
-	font-size: 34px;
+	font-size: 2.8em;
 	font-weight: bold;
 	word-break: break-word;
 }
 
 .hero .caption p{
-	color: #6d6c6c;
+	color: #fdfcfc;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 30px;
+	font-size: 1.8em;
+	line-height: 1.5em;
 	margin: 15px 0 35px 0;
 }
 
