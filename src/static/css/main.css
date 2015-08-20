@@ -69,13 +69,6 @@
 }
 
 
-
-
-
-
-
-
-
 /*		General CSS		*/
 body{
 	background: #faf9f9;
@@ -92,7 +85,9 @@ a:focus{
 	max-width: 1130px;
 }
 
-
+h1 {
+	font-size: 3em;
+}
 
 /*		Header 		*/
 
@@ -472,17 +467,10 @@ a.app_link{
 
 
 
-
-
-
-
-
-
-/*		App features 		*/
-
-.app_features{
+/*		What we do 		*/
+.what-we-do{
 	width: 100%;
-	padding: 100px 0 20px 0;
+	padding: 50px 0 30px 0;
 	background-color: #41c17d;
 	background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 	background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
@@ -490,15 +478,12 @@ a.app_link{
 	background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
-.app_features h1{
+.what-we-do h1{
 	color: #fff;
-	font-family: "open_semibold", Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	margin: 50px 0 0 0;
-	word-break: break-word;
+	margin-bottom: 30px;
 }
 
-.app_features p{
+.what-we-do p{
 	color: #e0f7eb;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -506,124 +491,15 @@ a.app_link{
 	line-height: 28px;
 }
 
-.app_features .details{
-	margin-bottom: 80px;
+
+/*		About Level Eight section 		*/
+.about-level-eight {
+	padding: 60px 0;
 }
 
-
-
-
-
-
-
-
-
-
-/*		Testimonials section 		*/
-
-.testimonials{
-	padding: 100px 0;
+.about-level-eight p{
+	font-size: 1.5em;
 }
-
-.testimonials .testimonials_list{
-	max-width: 820px;
-	margin: 0 auto;
-}
-
-.testimonials .testimonials_list blockquote{
-	border: 0;
-	padding: 0;
-	margin: 0;
-}
-
-.testimonials .testimonials_list blockquote p{
-	color: #757171;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	margin-bottom: 50px;
-	line-height: 36px;
-}
-
-.testimonials .testimonials_list blockquote footer:before,
-.testimonials .testimonials_list blockquote footer:after{
-	content: none;
-}
-
-.testimonials .testimonials_list blockquote .author,
-.testimonials .testimonials_list blockquote .job{
-	display: block;
-}
-
-.testimonials .testimonials_list blockquote .author{
-	color: #4b4848;
-	font-family: "open_semibold", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	margin-bottom: 10px; 
-}
-
-.testimonials .testimonials_list blockquote .job{
-	color: #6e6d6d;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-}
-
-.#tslider{
-	text-align: center!important;
-	position: relative!important;
-}
-
-#tslider .owl-controls{
-	display: block;
-	width: 100%;
-	text-align: center;
-	margin-top: 40px;
-	padding: 0;
-}
-
-#tslider .owl-controls .owl-prev,
-#tslider .owl-controls .owl-next{
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	background: url('../img/nav_arrow.png') no-repeat;
-	text-indent: -200px;
-	overflow: hidden;
-
-	transition: all .2s linear;
-	-o-transition: all .2s linear;
-	-moz-transition: all .2s linear;
-	-webkit-transition: all .2s linear;
-}
-
-#tslider .owl-controls .owl-prev{
-	background-position: 0 0;
-}
-#tslider .owl-controls .owl-next{
-	background-position: -33px 0;
-	margin-left: 40px;
-}
-
-#tslider .owl-controls .owl-prev:hover,
-#tslider .owl-controls .owl-next:hover{
-	cursor: pointer;
-	background: url('../img/nav_arrow_hover.png') no-repeat;
-}
-
-#tslider .owl-controls .owl-prev:hover{
-	background-position: 0 0;
-}
-#tslider .owl-controls .owl-next:hover{
-	background-position: -33px 0;
-}
-
-
-
-
-
-
-
-
-
 
 /*		Subscription section 		*/
 
@@ -665,8 +541,6 @@ a.app_link{
 	-o-border-bottom-left-radius: 2px;
 	-moz-border-bottom-left-radius: 2px;
 	-webkit-border-bottom-left-radius: 2px;
-
-	
 }
 
 .sub_box #mc_submit{
@@ -719,14 +593,6 @@ a.app_link{
 .sub_box #success_msg{
 	display: none;
 }
-
-
-
-
-
-
-
-
 
 
 /*		Footer 		*/

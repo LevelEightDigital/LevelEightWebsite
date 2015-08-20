@@ -24,19 +24,21 @@ block content
             i.android_icon
             span Digital Marketing
     // End Hero Section
-    // Featured On Section
-    section.featured_on
-      .container
-        ul.list-unstyled.text-center.clearfix
-          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown
-            img(src='img/google_logo.png', alt='', title='')
-          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.2s')
-            img(src='img/facebook_logo.png', alt='', title='')
-          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.3s')
-            img(src='img/yahoo_logo.png', alt='', title='')
-          li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.4s')
-            img(src='img/paypal_logo.png', alt='', title='')
-    // End Featured On Section
+
+    //- // Featured On Section
+    //- section.featured_on
+    //-   .container
+    //-     ul.list-unstyled.text-center.clearfix
+    //-       li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown
+    //-         img(src='img/google_logo.png', alt='', title='')
+    //-       li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.2s')
+    //-         img(src='img/facebook_logo.png', alt='', title='')
+    //-       li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.3s')
+    //-         img(src='img/yahoo_logo.png', alt='', title='')
+    //-       li.col-xs-6.col-sm-6.col-md-3.animated.wow.fadeInDown(data-wow-delay='.4s')
+    //-         img(src='img/paypal_logo.png', alt='', title='')
+    //- // End Featured On Section
+
     // About Section
     section#about.about
       .container
@@ -62,7 +64,7 @@ block content
     //- End About Section
     
     //- App Features Section
-    section#app_features.app_features
+    section#what-we-do.what-we-do
       .container
         .row.text-center
           .col-md-12.wow.fadeInLeft(data-wow-delay='0s')
@@ -70,19 +72,19 @@ block content
 
         .row.text-center
 
-          .col-sm-6.col-md-6.details.animated.wow.fadeInDown(data-wow-delay='0s')
+          .col-md-4.col-md-offset-1.details.animated.wow.fadeInDown(data-wow-delay='0s')
             h3.text-uppercase Ecommerce Planning
             p Knowing how to leverage your product range is the key to selling successfully online. We’ll provide you with a plan to grow your business online - NOW. 
 
-          .col-sm-6.col-md-6.details.animated.wow.fadeInDown(data-wow-delay='0s')
+          .col-md-4.col-md-offset-2.details.animated.wow.fadeInDown(data-wow-delay='0s')
             h3.text-uppercase Digital Marketing Strategy
             p Understanding the best way to market your products means that your time and budget can be directed to what matters most. We’ll tell you which marketing activities are important for your business and how much time/budget you should be spending.
              
-          .col-sm-6.col-md-6.details.animated.wow.fadeInDown(data-wow-delay='0s')
+          .col-md-4.col-md-offset-1.details.animated.wow.fadeInDown(data-wow-delay='0s')
             h3.text-uppercase Improve your Website &amp; Digital Marketing
             p Whether it’s improving your ranking on search engines or increasing the click through rate on Adwords or emails we’ll show you how AND increase sales. 
 
-          .col-sm-6.col-md-6.details.animated.wow.fadeInDown(data-wow-delay='0s')
+          .col-md-4.col-md-offset-2.details.animated.wow.fadeInDown(data-wow-delay='0s')
             h3.text-uppercase Expand into New Marketplaces
             p We can open doors to new marketplaces or evaluate opportunities already presented to you. We’ll make sure that you have all the information you need to choose the best route for your business.
 
@@ -90,7 +92,7 @@ block content
     //- And App Features Section
 
     //- Testimonials Section
-    section#testimonials.testimonials.animated.wow.fadeIn(data-wow-duration='2s')
+    section#about-level-eight.about-level-eight.animated.wow.fadeIn(data-wow-duration='2s')
       .container
         p
           | As the owner of Level Eight Digital I work with businesses wanting to increase
@@ -108,14 +110,28 @@ block content
 
     //- Email Subscription Section
     section.sub_box
-      p.cta_text.animated.wow.fadeInDown Next step... get in touch, let’s talk about your business.
-
-      form#submit_form.animated.wow.fadeIn(action='#', metohd='post', data-wow-duration='2s')
-        input#mc-email(type='email', placeholder='Your Name')
-        input#mc-email(type='email', placeholder='Your Email')
-        input#mc-email(type='email', placeholder='Your Message')
-        button#mc_submit(type='submit')
-          i.icon
-      #error_msg.message Please Enter A Valid Email.
-      #success_msg.message Thank You For Your Message.
+      .container
+        .row
+          .col-md-12
+            p.text-center.cta_text.animated.wow.fadeInDown
+              | Next step... get in touch,
+              br
+              |let’s talk about your business.
+        .row
+          .col-md-6.col-md-offset-3
+            form#submit_form.animated.wow.fadeIn(action='#', metohd='post', data-wow-duration='2s')
+              .form-group
+                label.sr-only(for="index-form-name") Name
+                input#index-form-name.form-control(type='text', placeholder='Your Name')
+              .form-group
+                label.sr-only(for="index-form-email") Email
+                input#index-form-email.form-control(type='email', placeholder='Your Email')
+              .form-group
+                label.sr-only(for="index-form-msg") Message
+                input#index-form-msg.form-control(type='text', placeholder='Your Message')
+        
+              button#mc_submit(type='submit')
+                i.icon
+            #error_msg.message Please Enter A Valid Email.
+            #success_msg.message Thank You For Your Message.
     // End Email Subscription Section
