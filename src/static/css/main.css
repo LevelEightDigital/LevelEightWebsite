@@ -89,6 +89,10 @@ h1 {
 	font-size: 3em;
 }
 
+.red-text {
+	color: #d03340;
+}
+
 /*		Header 		*/
 
 header{
