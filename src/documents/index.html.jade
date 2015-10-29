@@ -180,7 +180,10 @@ block content
             | Next step... get in touch.
       .row
         .col-md-6.col-md-offset-3
-          form#submit_form.animated.wow.fadeIn(action='#', metohd='post', data-wow-duration='2s')
+          form#submit_form.animated.wow.fadeIn(action='//formspree.io/contact@leveleightdigital.com', method='post', data-wow-duration='2s')
+            input(type="hidden" name="_subject" value="Website Contact")
+            input(type="text" name="_gotcha" style="display:none")
+              
             .form-group
               label.sr-only(for="index-form-name") Name
               input#index-form-name.form-control.input-lg(type='text', placeholder='Your Name')
