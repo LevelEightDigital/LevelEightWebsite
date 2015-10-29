@@ -201,7 +201,9 @@ header .social li:first-child{
 .hero .caption{
 	position: absolute;
 	max-width: 550px;
-	margin-left: 80px;
+	/* margin-left: 80px; */
+	padding: 20px;
+	background-color: #3f3f3f;
 	top: 50%;
 	transform:translate(0,-50%);
 	-webkit-transform:translate(0,-50%);
