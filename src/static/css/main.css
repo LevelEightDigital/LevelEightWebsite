@@ -188,6 +188,9 @@ header .social li:first-child{
 	margin: 0;
 }
 
+.logo img {
+	width: 330px;
+}
 
 /*		Hero section 		*/
 
@@ -456,11 +459,6 @@ a.app_link{
 	display: inline-block;
 }
 
-
-.about-level-eight p {
-	color: #767272;
-}
-
 /*		What we do 		*/
 .what-we-do{
 	width: 100%;
@@ -496,8 +494,11 @@ a.app_link{
 	padding: 60px 0;
 }
 
-.about-level-eight p{
-	font-size: 1.5em;
+.about-level-eight p {
+	color: #767272;
+	font-size: 16px;
+	margin-bottom: 45px;
+	line-height: 32px;
 }
 
 /*		Subscription section 		*/
