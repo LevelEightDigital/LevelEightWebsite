@@ -23,12 +23,6 @@
 
 */
 
-
-
-
-
-
-
 /*		Fonts		*/
 @font-face {
     font-family: 'open_regular';
@@ -54,7 +48,6 @@
     font-style: normal;
 
 }
-
 
 @font-face {
     font-family: 'open_semibold';
@@ -186,6 +179,14 @@ header .social li{
 
 header .social li:first-child{
 	margin: 0;
+}
+
+header .contact {
+	padding-top: 46px;
+}
+
+.contact p {
+	font-size: 1.4em;
 }
 
 .logo img {
@@ -545,7 +546,7 @@ a.app_link{
 }
 
 .sub_box #mc_submit{
-	width: 60px;
+	/*width: 60px;*/
 	height: 50px;
 
 	border-radius: 4px;
