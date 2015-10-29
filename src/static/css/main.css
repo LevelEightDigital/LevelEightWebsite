@@ -70,8 +70,13 @@ body{
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 }
 
+a:hover{
+	color: #0f0f0f!important;
+	text-decoration: none!important;
+}
+
 a:focus{
-	color: #fff!important;
+	color: #0f0f0f!important;
 	text-decoration: none!important;
 }
 
@@ -187,6 +192,10 @@ header .contact {
 
 .contact p {
 	font-size: 1.4em;
+}
+
+.contact a {
+	color: #525151;
 }
 
 .logo img {
@@ -517,8 +526,6 @@ a.app_link{
 
 .sub_box .cta_text{
 	color: #fff;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 20px;
 	margin-bottom: 50px;
 }
 
@@ -550,7 +557,7 @@ a.app_link{
 	height: 50px;
 	font-size: 18px;
 	padding: 0 10px;
-	
+
 	border-radius: 4px;
 	-o-border-radius: 4px;
 	-moz-border-radius: 4px;
