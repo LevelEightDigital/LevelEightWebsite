@@ -149,9 +149,6 @@ h1 {
 }
 
 .hero .caption h1{
-	color: #f2f2f2;
-	color: #d03340;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 2.8em;
 	font-weight: bold;
 	word-break: break-word;
@@ -159,125 +156,26 @@ h1 {
 
 .hero .caption p{
 	color: #fdfcfc;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
 	line-height: 1.5em;
 	margin: 15px 0 35px 0;
 }
 
-#slider .caption p{
-	margin: 0;
-}
+/* Responsive for caption */
+@media (max-width: 767px) {
+	.hero .caption{
+		max-width: 400px;
+	}
 
-a.app_store_btn{
-	display: inline-block;
-	text-decoration: none;
-	padding: 15px 40px;
-	border: 2px solid #525252;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	margin: 20px 20px 10px 0;
+	.hero .caption h1{
+		font-size: 2.0em;
+	}
 
-	color: #525252;
-	font-family: "open_semibold", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-}
-
-.play_icon,
-.android_icon,
-.iphone_icon{
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	vertical-align: middle;
-	margin-right: 20px;
-	margin-bottom: 3px;
-}
-
-.play_icon{
-	background: url('../img/play.png') no-repeat;
-}
-
-.iphone_icon{
-	background: url('../img/iphone_app.png') no-repeat;
-}
-
-.android_icon{
-	background: url('../img/android_app.png') no-repeat;
-}
-
-
-a.app_store_btn:hover,
-a.app_store_btn:focus{
-	border-color: #41c27d;
-	color: #41c27d!important;
-}
-
-a.app_store_btn:hover .play_icon{
-	background: url('../img/play_hover.png') no-repeat;
-}
-
-a.app_store_btn:hover .iphone_icon{
-	background: url('../img/iphone_app_hover.png') no-repeat;
-}
-
-a.app_store_btn:hover .android_icon{
-	background: url('../img/android_app_hover.png') no-repeat;
-}
-
-a.app_link{
-	text-transform: lowercase;
-	letter-spacing: .5px;
-	color: #636363;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 16px;
-}
-
-a.app_link:hover,
-a.app_link:focus{
-	text-decoration: none;
-	color: #41c27d!important;
-}
-
-a.app_store_btn,
-.play_icon,
-.iphone_icon,
-.android_icon,
-a.app_link{
-	transition: all .2s linear;
-	-o-transition: all .2s linear;
-	-moz-transition: all .2s linear;
-	-webkit-transition: all .2s linear;
-}
-
-
-.about_video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: rgba(0, 0, 0, .8);
-    display: none;
-}
-
-.about_video iframe{
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-}
-
-.close_video{
-    text-decoration: none;
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    top: 50px;
-    right: 50px;
-    background: url('../img/close_video.png') no-repeat;
-    z-index: 9999;
+	.hero .caption p{
+		font-size: 1.5em;
+		line-height: 1.3em;
+		margin: 10px 0 20px 0;
+	}
 }
 
 /*		Featured on section 		*/
