@@ -37,20 +37,34 @@ html
 
   body
     //- Header Section
-    header
+    nav.navbar.navbar-default.navbar-fixed-top
       .container
-        .logo.pull-left.animated.wow.fadeInLeft
-          img(src='img/Level-Eight-Logo.png', alt='Level Eight Digital Logo', title='Level Eight Digital')
-        .contact.pull-right
+        //- .logo.pull-left.animated.wow.fadeInLeft
+        //-   img.img-responsive(src='img/Level-Eight-Logo.png', alt='Level Eight Digital Logo', title='Level Eight Digital')
+        //- .contact.pull-right
+        //-   p
+        //-     i.fa.fa-phone
+        //-     &nbsp;
+        //-     a(href="tel:01252 265121") 01252 265121
+        //-   p
+        //-     i.fa.fa-envelope
+        //-     &nbsp;
+        //-     a(href="#contact") contact@leveleightdigital.com
+
+        .navbar-nav.navbar-left
+          a.logo.animated.wow.fadeInLeft(href="/")
+            img.img-responsive(src='img/Level-Eight-Logo.png', alt='Level Eight Digital Logo', title='Level Eight Digital')
+
+        .navbar-nav.navbar-right.contact
           p
             i.fa.fa-phone
             &nbsp;
             a(href="tel:01252 265121") 01252 265121
-          p
+          p.hidden-xs
             i.fa.fa-envelope
             &nbsp;
             a(href="#contact") contact@leveleightdigital.com
-
+      
         //- nav.pull-left
         //-   ul.list-unstyled
         //-     li.animated.wow.fadeInLeft(data-wow-delay='0s')
